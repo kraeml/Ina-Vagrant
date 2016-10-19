@@ -1,1 +1,3 @@
 .vagrant/
+.c9
+.ipynb_*

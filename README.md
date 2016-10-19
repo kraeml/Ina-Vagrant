@@ -1,7 +1,7 @@
 # Ina Start
 
 ```bash
-vagrant up
+vagrant destroy && vagrant up
 ```
 
 Von USB geladen:
@@ -576,6 +576,20 @@ cloud9_init
 ```
 
 <http://192.168.2.10:8181>
+
+Zum Stoppen:
+
+```bash
+vagrant halt
+```
+
+Zum erneuten Starten:
+
+```bash
+vagrant up
+```
+
+Achtung: Cloud9 startet noch nicht automatisch neu. Daher `cloud9_init`
 
 ```bash
 ```
