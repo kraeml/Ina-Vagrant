@@ -1,9 +1,3 @@
----
-|-
-  __Von USB geladen:__
-  ```bash make create-ina ```
----
-
 # Ina Start
 
 ```bash
@@ -11,6 +5,16 @@ git clone https://github.com/kraeml/Ina-Vagrant.git
 cd Ina-Vagrant
 git checkout -b SJ2016
 ```
+
+--------------------------------------------------------------------------------
+
+**Von USB geladen:**
+
+```bash
+make create-ina
+```
+
+--------------------------------------------------------------------------------
 
 ```bash
 vagrant destroy && vagrant up
